@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broom Invaders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div>
+            <h1 class="centerItems centerTxt">
+                Broom Invaders
+            </h1>
+
+            <div class="flex centerItems centerTxt">
+                <button class="btn centerTxt">
+                    New Game
+                </button>
+                <button class="btn centerTxt">
+                    Pause
+                </button>
+            </div>
+
+            <h2 id="score" class="centerItems centerTxt">
+                Score: <br>
+                0000
+            </h2>
+        </div>
+
+        <canvas id="gameCanvas"></canvas>
+
+    </main>
+    
+    <!-- <script>
+        document.body.addEventListener("keydown", () => {
+            console.log("Test");
+        });
+    </script> -->
+
+    <script src="script.js"></script>
+</body>
+</html>

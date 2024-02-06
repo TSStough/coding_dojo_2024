@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* General */
+.flex{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
+.evenly{
+    justify-content: space-evenly;
+}
+
+.col1{
+    flex: 1;
+}
+.col2{
+    flex: 2;
+}
+.col3{
+    flex: 3;
+}
+
+.btn{
+    height: 30px;
+    width: 70px;
+}
+
+/* Nav */
+nav{
+    border-bottom: solid black 5px;
+    margin: 0 10%;
+}
+/* Nav Top Div */
+#logo{
+    background-color: mediumseagreen;
+}
+.navTopDiv button{
+    background-color: white;
+    border: none;
+}
+.navTopDiv button img{
+    height: 30px;
+    width: 30px;
+}
+#searchIcon img{
+    height: 20;
+}
+
+/* Nac Bottom Div */
+.navLinks ul{
+    list-style: none;
+}
+.navLinks li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+
+
+/* Main Dv */
+main{
+    margin: 0px 10%;
+    width: 80%;
+}
+#banner{
+    margin: 20px 0;
+}
+.topLeftDiv{
+    margin-bottom: 20px;
+}
+main h2{
+    text-align: center;
+}
+
+/* Top Left Div */
+
+.topLeftDiv h2{
+    background-color: mediumseagreen;
+    color: white;
+}
+.topLeftDiv a img{
+    height: 30px;
+    width: 60px;
+}
+.topLeftDiv a{
+    color: white;
+    text-decoration: none;
+}
+#discoverBtn{
+    background-color: mediumseagreen;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    width: 350px;
+}
+#specDiv{
+    background-color: mediumseagreen;
+}
+
+
+
+/* Top Right Div */
+#aloeBtn{
+    background-color: mediumseagreen;
+    color: white;
+    border: none;
+    justify-content: center;
+}
+.topRightDiv{
+    height: 325px;
+    margin-left: 20px;
+}
+.topRightDiv button{
+    width: 500px;
+}
+#topImg{
+    height: 200px;
+    width: 500px;
+}
+#topImg{
+    height: 200px;
+}
+
+/* Main Bottom Div */
+.mainBottDiv{
+    background-color: mediumspringgreen;
+}
+.mainBottDiv img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.plantType{
+    text-align: center;
+}
+
+/* Cookie Div */
+.cookies{
+    border: solid 2px black;
+    box-shadow: 3px 5px black;
+    background-color: white;
+    position: sticky;
+    bottom: 100px;
+}
+.cookies button{
+    background-color: mediumseagreen;
+    color: white;
+    box-shadow: black 2px 4px;
+}

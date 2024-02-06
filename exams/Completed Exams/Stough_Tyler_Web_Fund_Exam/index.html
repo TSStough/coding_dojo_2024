@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Fund-Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+
+        <div class="navTopDiv flex center between">
+            <h1>
+                <img src="images/assets/leaf.png" 
+                alt="easy-bay-logo" id="logo">
+                EasyBay
+            </h1>
+            <p>
+                <input type="text" placeholder="Search for anything">
+                <img src="images/assets/search-dark.png" 
+                alt="search-icon" id="searchIcon">
+            </p>
+            <a href="#" class="sighIn">
+                Sign In
+            </a>
+            <button onclick="emptyCart()">
+                <img src="images/assets/cart-dark.png" 
+                alt="shopping-cart-icon">
+            </button>
+        </div>
+
+        <div class="navLinks flex center" id="navLinks1">
+            <ul class="flex center evenly">
+                <li>
+                    <a href="#">
+                        Aeonium
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Andormischus
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Agave
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Aloe
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Anacampseros
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Aristaloe
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        More...
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <main>
+        <h2 id="banner">
+            Your Source for Serious Succulent Specialties
+        </h2>
+
+        <div class="mainTopDiv flex">
+
+            <div class="topLeftDiv flex">
+                <div id="specDiv">
+                    <h2>
+                        Discover succulent varieties one pot or rack at a time!
+                    </h2>
+                    <button id="discoverBtn" class="flex center">
+                        Discover
+                        <img src="images/assets/arrow-light.png" 
+                        alt="right-arrow" >
+                    </button> 
+                </div>
+                <img src="images/assets/succulents-1.jpg" 
+                alt="succulents"
+                onmouseover="newImg(this)"
+                onmouseout="oldImg(this)">
+            </div>
+
+            <div class="topRightDiv">
+                <img src="images/assets/aloe-m.jpg" 
+                alt="succulent" id="topImg">
+                <button id="aloeBtn" class="flex center">
+                    Soothing Aloe
+                    <img src="images/assets/arrow-light.png" 
+                    alt="right-arrow">
+                </button>
+            </div>
+
+        </div>
+
+        <div class="mainBottDiv flex center evenly">
+            <div class="plantType">
+                <img src="images/assets/aeonium-s.jpg" 
+                alt="aeonium">
+                <p>
+                    Aeonium
+                </p>
+            </div>
+            <div class="plantType">
+                <img src="images/assets/aloe-s.jpg" 
+                alt="aloe">
+                <p>
+                    Aloe
+                </p>
+            </div>
+            <div class="plantType">
+                <img src="images/assets/cactus-s.jpg" 
+                alt="cactus">
+                <p>
+                    Cactus
+                </p>
+            </div>
+            <div class="plantType">
+                <img src="images/assets/echeveria-s.jpg" 
+                alt="echeveria">
+                <p>
+                    Echeveria
+                </p>
+            </div>
+            <div class="plantType">
+                <img src="images/assets/sedum-s.jpg" 
+                alt="sedum">
+                <p>
+                    Sedum
+                </p>
+                </div>
+            <div class="plantType">
+                <img src="images/assets/sempervivum-s.jpg" 
+                alt="sempervivum">
+                <p>
+                    Sempervivum
+                </p>
+            </div>
+        </div>
+
+        <div class="cookies flex center evenly" id="cookieBar">
+            <img src="images/assets/alert-dark.png" 
+            alt="alert-icon">
+            <p>
+            This site makes use of third party cookies, by clicking "I Accept" you agree to the terms outlined in our 
+            <a href="#">cookie policy.</a>
+            </p>
+            <button class="btn"
+            onclick="removeElem(cookieBar)">
+                I Accept
+            </button>
+        </div>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
